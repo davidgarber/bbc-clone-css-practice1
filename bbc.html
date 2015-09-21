@@ -21,11 +21,13 @@
       .fixedwidth {
         width: 1050px;
         margin: 0 auto;
+        color: white;
       }
 
       #logodiv {
         padding-top: 5px;
         float: left;
+        border-right: 1px solid #F8F8FF;
         margin-top: 4px;
         margin-left: 30px;
         padding-right: 20px;
@@ -33,6 +35,44 @@
 
       #signin {
         padding-top: 7px;
+        float: left;
+        padding-right: 80px;
+        border-right: 1px solid #F8F8FF;
+      }
+
+      #topmenu {
+        float: left;
+      }
+
+      #topmenu ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      #topmenu li {
+        list-style: none;
+        font-weight: bold;
+        border-right: 1px solid #F8F8FF;
+        font-size: .9em;
+        padding: 10px 20px 10px 20px;
+        float: left;
+      }
+
+      #searchbox {
+        float: left;
+        padding: 5px 0 0 10px;
+      }
+
+      #searchbox input {
+        height: 20px;
+        width: 160px;
+        padding: 3px;
+        padding-left: 10px;
+        font-size: .9em;
+        background-image: url("css/images/magglass.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 20%;
       }
     </style>
   </head>
@@ -46,6 +86,20 @@
           <div id="signin">
             <img src="css/images/signin.png" alt="signin" height="25px" />
 
+          </div>
+          <div id="topmenu">
+            <ul>
+              <li>News</li>
+              <li>Sport</li>
+              <li>Weather</li>
+              <li>IPlayer</li>
+              <li>TV</li>
+              <li>Radio</li>
+              <li>More...</li>
+            </ul>
+          </div>
+          <div id="searchbox">
+            <input type="text" placeholder="search">
           </div>
         </div>
 
